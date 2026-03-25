@@ -5,15 +5,17 @@
   "keywords": [],
   "license": "ISC",
   "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.ts",
     "fmt": "oxfmt",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
   "devDependencies": {
     "oxfmt": "^0.42.0",
-    "oxlint": "^1.57.0"
+    "oxlint": "^1.57.0",
+    "vitest": "^4.1.1"
   },
   "packageManager": "pnpm@10.32.1"
 }
