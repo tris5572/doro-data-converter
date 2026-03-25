@@ -1,0 +1,19 @@
+{
+  "name": "doro-data-converter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.ts",
+    "fmt": "oxfmt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
