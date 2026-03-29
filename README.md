@@ -1,6 +1,6 @@
 # doro-data-converter
 
-[国土数値情報として公開されている道路データ](https://nlftp.mlit.go.jp/ksj/gmlold/datalist/gmlold_KsjTmplt-N01.html)を、GIS での標示に適した GeoJSON 形式に変換するツール。
+[国土数値情報として公開されている道路データ](https://nlftp.mlit.go.jp/ksj/gmlold/datalist/gmlold_KsjTmplt-N01.html)を、GIS での表示に適した GeoJSON 形式に変換するツール。
 
 出力ファイルは道路種別コードごとに分割する仕様としている。
 
